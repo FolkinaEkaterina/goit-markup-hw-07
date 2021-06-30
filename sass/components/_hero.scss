@@ -1,0 +1,65 @@
+
+.hero {
+  background-color: var(--background-hero-color);
+  
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+    var(--gradient),
+    var(--gradient)
+  ),
+   url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 30px;
+
+  color: var(--white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* button */
+
+.hero__button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  box-shadow: var(--hero-button-shadow);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  display: inline-block;
+  cursor: pointer;
+
+  transition: background-color 250ms var(--cubic);
+
+  &:hover, :focus {
+  background-color: var(--second-accent-color);
+  box-shadow: var(--hero-button-shadow);
+  color: var(--white-color);
+  }
+}
