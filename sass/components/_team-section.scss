@@ -67,7 +67,7 @@ img {
 
   transition: background-color 250ms var(--cubic), fill 250ms var(--cubic);
 
-  &:hover, :focus {
+  &:hover, &:focus {
     background-color: var(--accent-color);
     fill: var(--white-color);
   }

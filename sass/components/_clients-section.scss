@@ -29,7 +29,7 @@
 
   transition: border 250ms var(--cubic), fill 250ms  var(--cubic);
 
-  &:hover, :focus {
+  &:hover, &:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
   }

@@ -18,7 +18,7 @@
 
   transition: background-color 250ms var(--cubic), color 250ms var(--cubic), box-shadow 250ms var(--cubic);
 
-  &:hover, :focus {
+  &:hover, &:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
   box-shadow: var(--button-shadow);

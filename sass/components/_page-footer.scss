@@ -19,7 +19,7 @@
 
   transition: color 250ms var(--cubic);
 
-  &:hover, :focus {
+  &:hover, &:focus {
     color: var(--accent-color);
   }
 }
@@ -79,7 +79,7 @@
 
   transition: background-color 250ms var(--cubic);
 
-  &:hover, :focus {
+  &:hover, &:focus {
     background-color: var(--accent-color);
   }
 }
